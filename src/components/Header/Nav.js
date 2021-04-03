@@ -1,13 +1,15 @@
 
-//import './App.css';
+import './headerStyle.css';
+import Li from "./Li.js";
 
 function Nav() {
   return (
-    <div >
-
-this is Nav
-
-    </div>
+    <ul className="nav flex">
+<Li />
+<Li />
+<Li />
+<Li />
+    </ul>
   );
 }
 

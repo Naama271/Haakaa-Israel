@@ -1,0 +1,20 @@
+.nav{
+    list-style-type: none;
+}
+
+.nav li a{
+   text-decoration: none;
+   margin: 15px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}

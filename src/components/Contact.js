@@ -4,9 +4,7 @@
 function Contact() {
   return (
     <div >
-
-this is Contact
-
+<h3> יצירת קשר</h3>
     </div>
   );
 }

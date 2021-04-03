@@ -1,11 +1,11 @@
 
-//import './App.css';
+import './headerStyle.css';
 import Logo from "./Logo";
 import Nav from "./Nav";
 
 function Header() {
   return (
-    <div >
+    <div className="header flex" >
 
 <Logo />
 <Nav />

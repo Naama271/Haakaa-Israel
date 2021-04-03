@@ -7,7 +7,7 @@ function Distributor() {
   return (
     <div >
 
-Distributor
+מפיצה 1   
     </div>
   );
 }
