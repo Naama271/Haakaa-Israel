@@ -5,8 +5,8 @@ function Footer() {
   return (
     <div >
 
-this is Footer
-
+כל הזכויות שמורות
+HAAKAA ISRAEL © 
     </div>
   );
 }

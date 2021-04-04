@@ -1,12 +1,15 @@
 
 //import './App.css';
 import Distributorslist from './Distributorslist';
+import Tabslib from './Tabslib';
 
+//import { Rsuittable } from "./rsuitTable.js";
 
 function Distributors() {
   return (
     <div >
-<h3> המפיצות שלנו</h3>
+ 
+<Tabslib />
 <Distributorslist />
     </div>
   );
