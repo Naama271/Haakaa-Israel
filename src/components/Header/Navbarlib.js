@@ -4,7 +4,6 @@ import './headerStyle.css';
 
 import React from "react";
 import { ReactNavbar } from "react-responsive-animate-navbar";
-import Logo from "./Logo";
 import logoimage from './images/Israelogo150.png'
  
 function Example() {

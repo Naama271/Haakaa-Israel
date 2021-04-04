@@ -1,0 +1,14 @@
+
+.product_card {
+    width: 200px;
+    height: 250px;
+    border:1px saddlebrown solid;
+    float: right;
+    display: block;
+    margin: 5px;
+    text-align: center;
+}
+
+.product_card img{
+    width: 90%;
+}

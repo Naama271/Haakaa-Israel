@@ -14,7 +14,21 @@ div{
 }
 
 
-
 .section video{
   width: 100%;
+}
+
+
+.width100{
+  width: 100%;
+}
+
+.height100{
+  height: 100vh;
+}
+
+.flex{
+  display: flex;
+  align-items: top;
+  
 }
