@@ -20,24 +20,19 @@ function Example() {
       ]}
       social={[
         {
-          name: "Linkedin",
-          url: "https://www.linkedin.com/in/nazeh-taha/",
-          icon: ["fab", "linkedin-in"],
+          name: "Youtube",
+          url: "https://www.youtube.com/channel/UC8u24ahAPEMu33Gw4ASqpog/videos",
+          icon: ["fab", "youtube"],
         },
         {
           name: "Facebook",
-          url: "https://www.facebook.com/nazeh200/",
+          url: "https://www.facebook.com/HaakaaIsrael",
           icon: ["fab", "facebook-f"],
         },
         {
           name: "Instagram",
-          url: "https://www.instagram.com/nazeh_taha/",
+          url: "https://www.instagram.com/alphamomb/",
           icon: ["fab", "instagram"],
-        },
-        {
-          name: "Twitter",
-          url: "http://nazehtaha.herokuapp.com/",
-          icon: ["fab", "twitter"],
         },
       ]}
     />

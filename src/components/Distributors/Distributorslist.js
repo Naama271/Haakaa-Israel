@@ -6,9 +6,6 @@ function Distributorslist() {
   return (
     <div >
 
-<Distributor />
-<Distributor />
-<Distributor />
     </div>
   );
 }
