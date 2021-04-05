@@ -5,6 +5,7 @@ import './headerStyle.css';
 import React from "react";
 import { ReactNavbar } from "react-responsive-animate-navbar";
 import logoimage from './images/Israelogo150.png'
+import { HashLink as Link } from 'react-router-hash-link';
  
 function Example() {
 
@@ -13,10 +14,10 @@ function Example() {
       color="rgb(25, 25, 25)"
       logo={logoimage}
       menu={[
-        { name: "הסיפור שלנו", to: "/about" },
-        { name: "המוצרים שלנו", to: "/products" },
-        { name: "נקודות הפצה", to: "/distributors" },
-        { name: "צרי איתנו קשר", to: "/contact" },
+        { name: "הסיפור שלנו", to: "/#yourAnchorTag" },
+        { name: "המוצרים שלנו", to: "/#products" },
+        { name: "נקודות הפצה", to: "/#distributors" },
+        { name: "צרי איתנו קשר", to: "/#contact" },
       ]}
       social={[
         {

@@ -1,10 +1,12 @@
 
 //import './App.css';
+import ContactForm from './ContactForm';
 
 function Contact() {
   return (
-    <div >
-<h3> יצירת קשר</h3>
+    <div id="contact" className="section">
+      <h3> יצירת קשר</h3>
+<ContactForm />
     </div>
   );
 }

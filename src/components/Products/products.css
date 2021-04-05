@@ -2,11 +2,15 @@
 .product_card {
     width: 200px;
     height: 250px;
-    border:1px saddlebrown solid;
     float: right;
     display: block;
     margin: 5px;
     text-align: center;
+}
+
+.product_card:hover {
+    border:1px #58B530 solid;
+    box-shadow: 2px 2px 5px grey;
 }
 
 .product_card img{

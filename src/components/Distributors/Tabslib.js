@@ -1,32 +1,36 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import Disdata from './Distributorsdata';
+import Notrhdata from './Distributorsdata';
+import Centerdata from './Distributorsdata';
+import Southdata from './Distributorsdata';
+
 
 function Tabslib (){
   return (
     <div>
       <Tabs direction={'rtl'}>
         <TabList>
-          <Tab>צפון</Tab>
+          <Tab >צפון</Tab>
           <Tab>מרכז</Tab>
           <Tab>דרום</Tab>
           <Tab>רכישה אונליין</Tab>
         </TabList>
         <TabPanel>
         <h4>מפיצות בצפון </h4>
-   <Disdata />
+       <Notrhdata />
         </TabPanel>
         <TabPanel>
         <h4>מפיצות במרכז ובירושלים</h4>
+        <Centerdata />
         </TabPanel>
         <TabPanel>
         <h4>מפיצות בדרום </h4>
+        <Southdata />
         </TabPanel>
         <TabPanel>
           <h4>רכישה מהירה אונליין </h4>
-          <table class="table table-hover" dir="rtl">
-
-    <tbody id="southdis">
+          <table>
+      <tbody >
        <tr>
          <td>אלפא מאם </td>
         <td><a href="https://www.alphamom.co.il">www.alphamom.co.il</a></td>

@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
-div{
+/* div{
   border: 1px blue solid;
-}
+} */
 
 *{
   margin: 0px;
@@ -14,8 +14,12 @@ div{
 }
 
 
-.section video{
+video{
   width: 100%;
+}
+
+.section{
+  margin: 50px 20px;
 }
 
 
@@ -30,5 +34,28 @@ div{
 .flex{
   display: flex;
   align-items: top;
-  
+}
+
+form{
+display: flex;
+flex-direction: column;
+margin: 5px;
+
+}
+
+form input{
+  margin-bottom: 5px;
+}
+
+h3{
+display: block;
+  border-bottom: 3px solid #58B530;
+  width: 20vw;
+  text-align: center;
+}
+
+button{
+  width: 150px;
+  background-color: #C9A878;
+  color: antiquewhite;
 }
