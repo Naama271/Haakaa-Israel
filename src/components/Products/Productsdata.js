@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import image from './images/11/MHK002.jpg'
 import { Link } from 'react-router-dom'
 
 
@@ -16,18 +15,14 @@ const Productsdata = () => {
  
       setTerm(data.map(product => {
         
-        return (         
-        //    <Link
-        //   to={`products/${product.id}`}
-        //   key={product.id}
-        // >
-
-      <div className="product_card" key={product.id}>
-          {/* <img src={require('/Users/avicohen/AppleSeeds/react/Haakaa-Israel/src/components/Products/' +product.primarying.slice(2)).default}></img> */}
+        return (    
+    
+      <Link to={{pathname: `products/${product.id}`, query: product}}
+      className="product_card" key={product.id}>
         <img src={product.primarying}></img>
         {product.title}<br/>
-        </div>
-        // </Link>
+        </Link>
+
           )
       }
       ));
