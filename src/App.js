@@ -27,11 +27,11 @@ function App() {
         <meta name="Haakaa Israel" content="Haakaa Israel" />
         </Helmet>
    <Switch>
-      <Route  path="/" component={Home} />
-      <Route  path="/about" component={About} />
-      <Route  path="/distributors" component={Distributors} />
-      <Route  path="/contact" component={Contact} />
-      <Route  path="/products" component={Products} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/distributors" component={Distributors} />
+      <Route exact path="/ontact" component={Contact} />
+      <Route exact path="/products" component={Products} />
       <Route exact path="/products/:id" component={Product} />
       <Route component={NotFound} />
     

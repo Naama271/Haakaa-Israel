@@ -19,8 +19,8 @@ const ContactForm = () => {
         <input type="text" id="name" placeholder="השם שלך" required />
         <input type="email" id="email" placeholder="כתובת המייל שלך" required />
         <input type="phone" id="phone" placeholder="מספר הפלאפון שלך" required />
-        <textarea id="message" placeholder="מה שרצית לשאול או להגיד לנו" required />
-      <button type="submit">{status}</button>
+        <textarea id="message" placeholder="מה שרצית לשאול או להגיד לנו"  />
+      <button type="submit">דברו איתי</button>
     </form>
   );
 };

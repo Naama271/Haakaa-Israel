@@ -3,7 +3,7 @@
 
 function Footer() {
   return (
-    <div >
+    <div className="footer" >
 
 כל הזכויות שמורות
 HAAKAA ISRAEL © 

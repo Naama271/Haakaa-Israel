@@ -1,12 +1,10 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-
-
 function Tabstipslib (){
   return (
     <div>
-      <Tabs direction={'rtl'}>
+      <Tabs >
         <TabList>
           <Tab >הוראות שימוש</Tab>
           <Tab>הוראות טיפול במוצר</Tab>
@@ -26,10 +24,6 @@ function Tabstipslib (){
       </Tabs>
     </div>
   );
-
-
-
-
 
 }
 

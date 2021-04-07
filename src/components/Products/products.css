@@ -49,11 +49,13 @@ a{
         float: none;
     }
     .product_page{
-        padding-top: 40px;
+        padding-top: 80px;
     }
 
   }
-
+  .carousel *{
+      direction:ltr;
+  }
 
   
   /* On screens that are 600px or less, set the background color to olive

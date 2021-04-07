@@ -1,8 +1,10 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import Notrhdata from './Distributorsdata';
+import Mashudata from './Distributorsdata';
 import Centerdata from './Distributorsdata';
 import Southdata from './Distributorsdata';
+import whatsapp from './icons/whatsapp.png';
+import phone from './icons/phone.png';
 
 
 function Tabslib (){
@@ -17,35 +19,46 @@ function Tabslib (){
         </TabList>
         <TabPanel>
         <h4>מפיצות בצפון </h4>
-       <Notrhdata />
+       <Mashudata location='north' />
         </TabPanel>
         <TabPanel>
         <h4>מפיצות במרכז ובירושלים</h4>
-        <Centerdata />
+        <Mashudata location='center' />
         </TabPanel>
         <TabPanel>
         <h4>מפיצות בדרום </h4>
-        <Southdata />
+        <Mashudata location='south' />
         </TabPanel>
         <TabPanel>
           <h4>רכישה מהירה אונליין </h4>
           <table>
       <tbody >
+      <thead>
+        <td>העסק</td>
+        <td>האתר</td>
+        <td>יצירת קשר</td>
+        <td>יצירת קשר</td>
+        
+      </thead>
        <tr>
          <td>אלפא מאם </td>
         <td><a href="https://www.alphamom.co.il">www.alphamom.co.il</a></td>
-        <td><a href="https://wa.me/972523505066"><img src="./images/1x/whatsapp.png" /></a> </td>
+        <td><a href="https://wa.me/972523505066"><img src={whatsapp}/></a> </td>
+        <td><a href= "tel:0542003252"><img src={phone}/></a> </td>
       </tr>  
        <tr>
           <td>אמהות</td>
            <td><a href="https://www.imahot-design.com">www.imahot-design.com</a></td>
-        <td><a href="https://wa.me/972523494220"><img src="./images/1x/whatsapp.png" /></a> </td>
- 
+        <td><a href="https://wa.me/972523494220"><img src={whatsapp}/></a> </td>
+        <td><a href= "tel:0523494220"><img src={phone}/></a> </td>
       </tr>  
       <tr>
        <td> בייבי קואלה</td>
         <td><a href="https://baby-koala.com">www.baby-koala.com</a></td>
-        <td><a href="https://wa.me/972542003252"><img src="./icons/whatsapp.png" /></a> </td>
+        <td><a href="https://wa.me/972542003252"><img src={whatsapp}/></a>
+        </td>
+        <td><a href="tel:0542003252"><img src={phone}/></a>
+      </td>
       </tr>  
     </tbody>
   </table>
@@ -53,10 +66,6 @@ function Tabslib (){
       </Tabs>
     </div>
   );
-
-
-
-
 
 }
 

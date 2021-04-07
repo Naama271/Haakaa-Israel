@@ -5,7 +5,7 @@ import Example from "./Navbarlib";
 
 function Header() {
   return (
-    <div className="header" >
+    <div className="header flex" >
      < Example />
 
     </div>

@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import whatsapp from './icons/whatsapp.png';
+import phone from './icons/phone.png';
+import './dis.css';
 
-const Notrhdata = () => {
-  const [north, setNorth] = useState([]);
+const Mashudata = ({location}) => {
+  const [display, setdisplay] = useState([]);
   // const [term, setTerm] = useState([]);
   // const [center, setCenter] = useState([]);
   // const [south, setSouth] = useState([]);
@@ -13,23 +16,15 @@ const Notrhdata = () => {
         "https://6069b5a1e1c2a10017544d37.mockapi.io/distributors"
       );
 
-      const northArr = data.filter((distributor) => {
+      const arr = data.filter((distributor) => {
         //  console.log(distributor.area)
-        return distributor.area === "north";
+        return distributor.area === location;
       });
 
-      const southArr = data.filter((distributor) => {
-        // console.log(distributor.area)
-        return distributor.area === "south";
-      });
 
-      const centerArr = data.filter((distributor) => {
-        //  console.log(distributor.area)
-        return distributor.area === "center";
-      });
 
-      setNorth(
-        northArr.map((distributor) => {
+      setdisplay(
+        arr.map((distributor) => {
           return (
             <tr key={distributor.id}>
               <td>
@@ -38,7 +33,8 @@ const Notrhdata = () => {
                 {distributor.title}
               </td>
               <td> {distributor.city}</td>
-              <td> {distributor.phone}</td>
+              <td><a href={`https://wa.me/972${distributor.phone}`}><img src={whatsapp}/></a> </td>
+              <td><a href= {`tel:${distributor.phone}`}><img src={phone}/></a> </td>
             </tr>
           );
         })
@@ -55,9 +51,9 @@ const Notrhdata = () => {
         <td>איזור</td>
         <td>יצירת קשר</td>
       </thead>
-      {north}
+      {display}
     </table>
   );
 };
 
-export default Notrhdata;
+export default Mashudata;
