@@ -45,7 +45,7 @@ list-style-type: none;
         height: 50px;
        }
 
-       a{
+       .header a{
            font-size: small;
        }
        .footer{

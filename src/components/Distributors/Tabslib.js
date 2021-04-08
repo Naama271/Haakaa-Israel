@@ -1,8 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Mashudata from './Distributorsdata';
-import Centerdata from './Distributorsdata';
-import Southdata from './Distributorsdata';
 import whatsapp from './icons/whatsapp.png';
 import phone from './icons/phone.png';
 

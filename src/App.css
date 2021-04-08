@@ -58,6 +58,13 @@ button{
   width: 150px;
   background-color: #C9A878;
   color: antiquewhite;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: #58B530;
 }
 
 .left{

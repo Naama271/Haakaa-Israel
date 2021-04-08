@@ -3,7 +3,7 @@ import './headerStyle.css';
 //import Li from "./Li.js";
 
 import React from "react";
-import { ReactNavbar } from "react-responsive-animate-navbar";
+
 import logoimage from './images/Israelogo150.png'
 import { HashLink } from 'react-router-hash-link';
 import {BrowserRouter, Link} from 'react-router-dom';
