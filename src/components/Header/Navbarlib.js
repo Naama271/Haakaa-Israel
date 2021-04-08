@@ -43,7 +43,7 @@ function Example() {
     
     <BrowserRouter>
    
-   <HashLink to='/'><img src={logoimage} className="logo"/></HashLink>
+   <HashLink to='/#home'><img src={logoimage} className="logo"/></HashLink>
     
       <ul>
 
